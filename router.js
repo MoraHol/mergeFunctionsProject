@@ -12,4 +12,7 @@ router.get('/calculadora', (req, res, next) => {
 router.get('/post-it', (req, res, next) => {
   res.render('pages/post-it')
 })
+router.get('/calendario', (req, res, next) => {
+  res.render('pages/calendar')
+})
 module.exports = router
